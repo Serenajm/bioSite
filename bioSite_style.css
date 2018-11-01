@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: lightgray;
 }
 
 body {
@@ -95,9 +95,43 @@ figcaption {
     padding-bottom: 20px;
 }
 
+form {
+    border-style: solid;
+    border-color: #5f456b;
+    border-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 500px
+}
+
+input[name=message] {
+    height: 200px;
+}
+
+input[type=submit] {
+    font-family:  "Oxygen", "Arial", sans-serif;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    background-color: #5f456b;
+    box-shadow: 5px 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: lightgray;
+}
+
 footer {
+    float: left;
     background-color: #5f456b;
     font-weight: 200;
     color: lightgray;
     text-align: center;
+    padding: 20px;
+    width: 100%;
 }
