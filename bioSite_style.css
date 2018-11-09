@@ -3,14 +3,20 @@ html {
     line-height: 1.25;
 }
 
+.content {
+    margin: auto;
+}
+
 head {
     text-transform: capitalize;
 }
 
 header {
+    float: left;
     text-align: center;
-    padding: 20px;
     background-color: #5f456b;
+    padding: 20px;
+    width: 900px;
 }
 
 header h1 {
@@ -19,16 +25,21 @@ header h1 {
 
 body {
     font-family:  "Oxygen", "Arial", sans-serif;
+    margin: auto;
+    background-color: darkgrey;
     font-weight: 400;
-    background-color: #5f456b;
+    width: 900px;
 }
 
 nav {
     float: left;
-    padding-left: 10px;
     overflow: auto;
-    height: 100%;
     position: fixed;
+    background-color: #5f456b;
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 56px;
+    height: 100%;
 }
 
 nav ul {
@@ -40,8 +51,8 @@ li a {
     font-family:  "Oxygen", "Arial", sans-serif;
     text-align: center;
     display: block;
-    border-radius: 10px;
     background-color: lightgray;
+    border-radius: 10px;
     box-shadow: 5px 5px;
     padding: 10px 20px;
     margin-left: 50px;
@@ -53,8 +64,8 @@ li a:hover {
 }
 
 a {
-    color: rgba(65, 65, 65, 100%);
     text-decoration: none;
+    color: rgb(50, 50, 50);
 }
 
 article {
@@ -63,31 +74,30 @@ article {
     width: 550px;
     margin-left: 215px;
     padding-left: 50px;
-    padding-right: 100%;
+    padding-right: 125px;
 }
 
 h1 {
     font-family: "Oxygen", "Arial", sans-serif;
-    font-weight: 700;
     color: #5f456b;
+    font-weight: 700;
 }
 
 h2 {
     font-family: "Oxygen", "Arial", sans-serif;
-    font-weight: 400;
     color: #5f456b;
+    font-weight: 400;
 }
 
 h3 {
     font-family: "PT-Sans-Narrow" "Courier", sans-serif;
-    font-weight: 700;
     color: #5f456b;
+    font-weight: 700;
 }
 
 figure {
     display: inline-block;
-    margin-left: 0;
-    margin-right: 700px;
+    margin-left: 0px;
 }
 
 figcaption {
@@ -95,13 +105,17 @@ figcaption {
     padding-bottom: 20px;
 }
 
+img {
+    padding-top: 20px;
+}
+
 form {
     border-style: solid;
     border-color: #5f456b;
+    display: block;
     border-width: 2px;
     border-left-width: 0px;
     border-right-width: 0px;
-    display: block;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -110,28 +124,29 @@ input[type=text] {
     width: 500px
 }
 
-input[name=message] {
+textarea {
     height: 200px;
+    width: 500px;
 }
 
 input[type=submit] {
     font-family:  "Oxygen", "Arial", sans-serif;
     text-align: center;
     display: block;
-    border-radius: 10px;
     background-color: #5f456b;
+    color: lightgray;
+    border-radius: 10px;
     box-shadow: 5px 5px;
     padding: 10px 20px;
     margin-top: 20px;
-    color: lightgray;
 }
 
 footer {
     float: left;
     background-color: #5f456b;
-    font-weight: 200;
-    color: lightgray;
     text-align: center;
+    color: lightgray;
+    font-weight: 200;
     padding: 20px;
     width: 100%;
 }
